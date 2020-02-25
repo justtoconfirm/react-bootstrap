@@ -1,7 +1,7 @@
 {
   "name": "react-bootstrap",
   "version": "1.0.0",
-  "description": "",
+  "description": "React Boilerplate",
   "main": "index.js",
   "scripts": {
     "lint": "standard",
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/justtoconfirm/react-bootstrap.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Dan Jackson",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/justtoconfirm/react-bootstrap/issues"
