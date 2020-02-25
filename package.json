@@ -6,8 +6,8 @@
   "scripts": {
     "lint": "standard",
     "lint:fix": "standard --fix",
-    "build": "webpack --mode production",
-    "build:dev": "webpack --mode development"
+    "build": "NODE_ENV=production webpack --mode=production --progress",
+    "build:dev": "NODE_ENV=development webpack --mode=development --progress"
   },
   "repository": {
     "type": "git",
