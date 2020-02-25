@@ -24,3 +24,12 @@ $ npm run build
 # For development
 $ npm run build:dev
 ```
+
+## Lint
+
+```
+$ npm run lint
+
+# Fix issues
+$ npm run lint:fix
+```
