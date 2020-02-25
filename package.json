@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/justtoconfirm/react-bootstrap/issues"
   },
-  "homepage": "https://github.com/justtoconfirm/react-bootstrap#readme"
+  "homepage": "https://github.com/justtoconfirm/react-bootstrap#readme",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
 }
