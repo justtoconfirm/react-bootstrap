@@ -2,6 +2,10 @@ const path = require('path');
 const env = process.env.NODE_ENV;
 
 module.exports = {
+    devtool: 'source-map',
+    performance: {
+        hints: 'warning'
+    },
     module: {
         rules: [
             {
