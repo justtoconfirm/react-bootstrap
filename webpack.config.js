@@ -13,6 +13,23 @@ module.exports = {
             }
         ]
     },
+    optimization: {
+        // Create the runtime bundle for all chunks containing the bootstrap code for Webpack
+        runtimeChunk: {
+            name: 'runtime'
+        },
+        // Allow shared and vendor dependencies to be split into separate bundles
+        splitChunks: {
+            chunks: 'all',
+            cacheGroups: {
+                vendors: {
+                    test: /[\\/]node_modules[\\/]/i,
+                    chunks: 'all',
+                    name: 'vendor'
+                }
+            }
+        }
+    },
     output: {
         path: path.resolve(__dirname, './dist'),
         publicPath: '/',
