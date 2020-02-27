@@ -13,7 +13,7 @@ const Button = (props) => {
 		<a href={url} role="button">{children}</a>
 
 	const renderButton = () =>
-		<button type={type}>{children}</button>
+		<button {...{type}}>{children}</button>
 
 	return (
 		isAnchor ? renderAnchor() : renderButton()

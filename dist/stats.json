@@ -4,9 +4,9 @@
   "warnings": [
   ],
   "version": "4.41.6",
-  "hash": "d490c15dad2d480320b9",
-  "time": 1051,
-  "builtAt": 1582791555936,
+  "hash": "89eb6d0feb00b8667d83",
+  "time": 831,
+  "builtAt": 1582792178707,
   "publicPath": "/",
   "outputPath": "/Users/danjackson/Documents/www/react-bootstrap/dist",
   "assetsByChunkName": {
@@ -26,7 +26,7 @@
   "assets": [
     {
       "name": "js/min/main.bundle.min.js",
-      "size": 1712,
+      "size": 1929,
       "chunks": [
         0
       ],
@@ -39,7 +39,7 @@
     },
     {
       "name": "js/min/main.bundle.min.js.map",
-      "size": 956,
+      "size": 1650,
       "chunks": [
         0
       ],
@@ -155,7 +155,7 @@
       "rendered": true,
       "initial": true,
       "entry": false,
-      "size": 3064,
+      "size": 3687,
       "names": [
         "main"
       ],
@@ -163,7 +163,7 @@
         "js/min/main.bundle.min.js",
         "js/min/main.bundle.min.js.map"
       ],
-      "hash": "d9d18340f1f04b703a04",
+      "hash": "8b59badac685414e8924",
       "siblings": [
         1,
         2
@@ -181,7 +181,7 @@
           "name": "./src/index.js + 2 modules",
           "index": 0,
           "index2": 9,
-          "size": 3064,
+          "size": 3687,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -265,7 +265,7 @@
               "name": "./src/App.js",
               "index": 8,
               "index2": 8,
-              "size": 2721,
+              "size": 2731,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -323,7 +323,7 @@
               "name": "./src/components/Button.js",
               "index": 9,
               "index2": 7,
-              "size": 143,
+              "size": 756,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -526,7 +526,7 @@
               "moduleName": "./src/index.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "4:9-14"
+              "loc": "5:7-12"
             },
             {
               "moduleId": 7,
@@ -535,7 +535,7 @@
               "moduleName": "./src/index.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "5:7-12"
+              "loc": "12:11-16"
             },
             {
               "moduleId": 7,
@@ -545,6 +545,15 @@
               "type": "harmony side effect evaluation",
               "userRequest": "react",
               "loc": "19:0-41"
+            },
+            {
+              "moduleId": 7,
+              "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js 5ebfafe8205c123e904f93053402f376",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "19:11-16"
             },
             {
               "moduleId": 7,
@@ -1017,7 +1026,7 @@
           "moduleName": "./src/index.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "4:9-14"
+          "loc": "5:7-12"
         },
         {
           "moduleId": 7,
@@ -1026,7 +1035,7 @@
           "moduleName": "./src/index.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "5:7-12"
+          "loc": "12:11-16"
         },
         {
           "moduleId": 7,
@@ -1036,6 +1045,15 @@
           "type": "harmony side effect evaluation",
           "userRequest": "react",
           "loc": "19:0-41"
+        },
+        {
+          "moduleId": 7,
+          "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js 5ebfafe8205c123e904f93053402f376",
+          "module": "./src/index.js + 2 modules",
+          "moduleName": "./src/index.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "19:11-16"
         },
         {
           "moduleId": 7,
@@ -1434,7 +1452,7 @@
       "name": "./src/index.js + 2 modules",
       "index": 0,
       "index2": 9,
-      "size": 3064,
+      "size": 3687,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -1518,7 +1536,7 @@
           "name": "./src/App.js",
           "index": 8,
           "index2": 8,
-          "size": 2721,
+          "size": 2731,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -1576,7 +1594,7 @@
           "name": "./src/components/Button.js",
           "index": 9,
           "index2": 7,
-          "size": 143,
+          "size": 756,
           "cacheable": true,
           "built": true,
           "optional": false,

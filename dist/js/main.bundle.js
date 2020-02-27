@@ -47,7 +47,7 @@ function (_Component) {
   _createClass(App, [{
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Button__WEBPACK_IMPORTED_MODULE_1__["default"], null));
+      return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Button__WEBPACK_IMPORTED_MODULE_1__["default"], null, "Button"));
     }
   }]);
 
@@ -71,8 +71,28 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
 
-var Button = function Button() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", null, "Button");
+var Button = function Button(props) {
+  var _props$type = props.type,
+      type = _props$type === void 0 ? 'button' : _props$type,
+      _props$url = props.url,
+      url = _props$url === void 0 ? '' : _props$url,
+      children = props.children;
+  var isAnchor = url && (url.includes('http') || url.startsWith('#') || url.startsWith('mailto') || url.startsWith('/'));
+
+  var renderAnchor = function renderAnchor() {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: url,
+      role: "button"
+    }, children);
+  };
+
+  var renderButton = function renderButton() {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+      type: type
+    }, children);
+  };
+
+  return isAnchor ? renderAnchor() : renderButton();
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Button);
