@@ -4,9 +4,9 @@
   "warnings": [
   ],
   "version": "4.41.6",
-  "hash": "479f1aafc5f8a7fa1a75",
-  "time": 2336,
-  "builtAt": 1582792553445,
+  "hash": "da3c7ed4c0db040f2c31",
+  "time": 1316,
+  "builtAt": 1582792643040,
   "publicPath": "/",
   "outputPath": "/Users/danjackson/Documents/www/react-bootstrap/dist",
   "assetsByChunkName": {
@@ -26,7 +26,7 @@
   "assets": [
     {
       "name": "js/min/main.bundle.min.js",
-      "size": 2376,
+      "size": 2423,
       "chunks": [
         0
       ],
@@ -39,7 +39,7 @@
     },
     {
       "name": "js/min/main.bundle.min.js.map",
-      "size": 2252,
+      "size": 2330,
       "chunks": [
         0
       ],
@@ -155,7 +155,7 @@
       "rendered": true,
       "initial": true,
       "entry": false,
-      "size": 4636,
+      "size": 4712,
       "names": [
         "main"
       ],
@@ -163,7 +163,7 @@
         "js/min/main.bundle.min.js",
         "js/min/main.bundle.min.js.map"
       ],
-      "hash": "218ebf009bbc62d270bf",
+      "hash": "beb474891e5fe5d20b4b",
       "siblings": [
         1,
         2
@@ -181,7 +181,7 @@
           "name": "./src/index.js + 2 modules",
           "index": 0,
           "index2": 10,
-          "size": 4636,
+          "size": 4712,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -266,7 +266,7 @@
               "name": "./src/App.js",
               "index": 8,
               "index2": 9,
-              "size": 2731,
+              "size": 2807,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -369,6 +369,15 @@
                   "type": "harmony import specifier",
                   "userRequest": "./components/Button",
                   "loc": "36:75-81"
+                },
+                {
+                  "moduleId": null,
+                  "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/App.js",
+                  "module": "./src/App.js",
+                  "moduleName": "./src/App.js",
+                  "type": "harmony import specifier",
+                  "userRequest": "./components/Button",
+                  "loc": "36:120-126"
                 }
               ],
               "usedExports": [
@@ -590,7 +599,16 @@
               "moduleName": "./src/index.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "41:2-11"
+              "loc": "36:100-105"
+            },
+            {
+              "moduleId": 8,
+              "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js 5ebfafe8205c123e904f93053402f376",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "43:2-11"
             }
           ],
           "usedExports": true,
@@ -1158,7 +1176,16 @@
           "moduleName": "./src/index.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "41:2-11"
+          "loc": "36:100-105"
+        },
+        {
+          "moduleId": 8,
+          "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js 5ebfafe8205c123e904f93053402f376",
+          "module": "./src/index.js + 2 modules",
+          "moduleName": "./src/index.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "43:2-11"
         }
       ],
       "usedExports": true,
@@ -1589,7 +1616,7 @@
       "name": "./src/index.js + 2 modules",
       "index": 0,
       "index2": 10,
-      "size": 4636,
+      "size": 4712,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -1674,7 +1701,7 @@
           "name": "./src/App.js",
           "index": 8,
           "index2": 9,
-          "size": 2731,
+          "size": 2807,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -1777,6 +1804,15 @@
               "type": "harmony import specifier",
               "userRequest": "./components/Button",
               "loc": "36:75-81"
+            },
+            {
+              "moduleId": null,
+              "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/App.js",
+              "module": "./src/App.js",
+              "moduleName": "./src/App.js",
+              "type": "harmony import specifier",
+              "userRequest": "./components/Button",
+              "loc": "36:120-126"
             }
           ],
           "usedExports": [

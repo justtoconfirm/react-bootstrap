@@ -7,6 +7,7 @@ class App extends Component {
 		return (
 			<>
 				<Button>Button</Button>
+				<Button isFullWidth>Button</Button>
 			</>
 		)
 	}
