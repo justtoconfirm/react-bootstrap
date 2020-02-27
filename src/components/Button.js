@@ -8,6 +8,7 @@ const Button = (props) => {
 			className = '',
 			theme = '',
 			isFullWidth = false,
+			onClick,
 			children
 	} = props;
 
@@ -23,7 +24,7 @@ const Button = (props) => {
 		<a href={url} className={buttonClass} role="button">{children}</a>
 
 	const renderButton = () =>
-		<button {...{type}} className={buttonClass}>{children}</button>
+		<button {...{type}} className={buttonClass} onClick={onClick}>{children}</button>
 
 	return (
 		isAnchor ? renderAnchor() : renderButton()
