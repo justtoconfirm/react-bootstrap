@@ -25,6 +25,12 @@ $ npm run build
 $ npm run build:dev
 ```
 
+## Webpack Bundle Analyzer
+
+```
+$ npm run analyzer
+```
+
 ## Lint
 
 ```
