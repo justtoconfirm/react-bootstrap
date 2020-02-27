@@ -7,6 +7,10 @@ module.exports = {
     performance: {
         hints: 'warning'
     },
+    watch: true,
+    watchOptions: {
+        ignored: /node_modules/
+    },
     module: {
         rules: [
             {
