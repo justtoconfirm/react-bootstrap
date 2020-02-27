@@ -11,6 +11,9 @@
     "analyzer": "webpack-bundle-analyzer --port 4200 dist/stats.json",
     "test": "jest"
   },
+  "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>/src/setupTests.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/justtoconfirm/react-bootstrap.git"
