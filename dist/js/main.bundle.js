@@ -89,6 +89,7 @@ var Button = function Button(props) {
       theme = _props$theme === void 0 ? '' : _props$theme,
       _props$isFullWidth = props.isFullWidth,
       isFullWidth = _props$isFullWidth === void 0 ? false : _props$isFullWidth,
+      onClick = props.onClick,
       children = props.children;
   var buttonClass = classnames__WEBPACK_IMPORTED_MODULE_1___default()('btn', className, {
     'btn--primary': theme === 'primary',
@@ -109,7 +110,8 @@ var Button = function Button(props) {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", _extends({
       type: type
     }, {
-      className: buttonClass
+      className: buttonClass,
+      onClick: onClick
     }), children);
   };
 
