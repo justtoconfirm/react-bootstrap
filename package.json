@@ -14,6 +14,9 @@
   "jest": {
     "setupFilesAfterEnv": ["<rootDir>/src/setupTests.js"]
   },
+  "standard": {
+    "env": [ "jest" ]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/justtoconfirm/react-bootstrap.git"
