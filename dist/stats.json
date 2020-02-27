@@ -4,9 +4,9 @@
   "warnings": [
   ],
   "version": "4.41.6",
-  "hash": "89eb6d0feb00b8667d83",
-  "time": 1032,
-  "builtAt": 1582792301834,
+  "hash": "479f1aafc5f8a7fa1a75",
+  "time": 2336,
+  "builtAt": 1582792553445,
   "publicPath": "/",
   "outputPath": "/Users/danjackson/Documents/www/react-bootstrap/dist",
   "assetsByChunkName": {
@@ -26,7 +26,7 @@
   "assets": [
     {
       "name": "js/min/main.bundle.min.js",
-      "size": 1929,
+      "size": 2376,
       "chunks": [
         0
       ],
@@ -39,7 +39,7 @@
     },
     {
       "name": "js/min/main.bundle.min.js.map",
-      "size": 1650,
+      "size": 2252,
       "chunks": [
         0
       ],
@@ -80,7 +80,7 @@
     },
     {
       "name": "js/min/vendor.bundle.min.js",
-      "size": 129972,
+      "size": 130558,
       "chunks": [
         2
       ],
@@ -93,7 +93,7 @@
     },
     {
       "name": "js/min/vendor.bundle.min.js.map",
-      "size": 313599,
+      "size": 315602,
       "chunks": [
         2
       ],
@@ -155,7 +155,7 @@
       "rendered": true,
       "initial": true,
       "entry": false,
-      "size": 3687,
+      "size": 4636,
       "names": [
         "main"
       ],
@@ -163,7 +163,7 @@
         "js/min/main.bundle.min.js",
         "js/min/main.bundle.min.js.map"
       ],
-      "hash": "8b59badac685414e8924",
+      "hash": "218ebf009bbc62d270bf",
       "siblings": [
         1,
         2
@@ -176,12 +176,12 @@
       },
       "modules": [
         {
-          "id": 7,
+          "id": 8,
           "identifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js 5ebfafe8205c123e904f93053402f376",
           "name": "./src/index.js + 2 modules",
           "index": 0,
-          "index2": 9,
-          "size": 3687,
+          "index2": 10,
+          "size": 4636,
           "cacheable": true,
           "built": true,
           "optional": false,
@@ -213,6 +213,7 @@
           "providedExports": [
           ],
           "optimizationBailout": [
+            "ModuleConcatenation bailout: Cannot concat with ./node_modules/classnames/index.js (<- Module is not an ECMAScript module)",
             "ModuleConcatenation bailout: Cannot concat with ./node_modules/react-dom/index.js (<- Module is not an ECMAScript module)",
             "ModuleConcatenation bailout: Cannot concat with ./node_modules/react/index.js (<- Module is not an ECMAScript module)"
           ],
@@ -223,7 +224,7 @@
               "identifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js",
               "name": "./src/index.js",
               "index": 0,
-              "index2": 9,
+              "index2": 10,
               "size": 190,
               "cacheable": true,
               "built": true,
@@ -264,7 +265,7 @@
               "identifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/App.js",
               "name": "./src/App.js",
               "index": 8,
-              "index2": 8,
+              "index2": 9,
               "size": 2731,
               "cacheable": true,
               "built": true,
@@ -322,8 +323,8 @@
               "identifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/components/Button.js",
               "name": "./src/components/Button.js",
               "index": 9,
-              "index2": 7,
-              "size": 756,
+              "index2": 8,
+              "size": 1700,
               "cacheable": true,
               "built": true,
               "optional": false,
@@ -442,7 +443,7 @@
       "initial": true,
       "entry": false,
       "reason": "split chunk (cache group: vendors) (name: vendor)",
-      "size": 134768,
+      "size": 135966,
       "names": [
         "vendor"
       ],
@@ -450,7 +451,7 @@
         "js/min/vendor.bundle.min.js",
         "js/min/vendor.bundle.min.js.map"
       ],
-      "hash": "b6ae8fccee102ef67adf",
+      "hash": "d34f1eb388e70ee334cc",
       "siblings": [
         0,
         1
@@ -493,7 +494,7 @@
           ],
           "reasons": [
             {
-              "moduleId": 4,
+              "moduleId": 5,
               "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/react-dom/cjs/react-dom.production.min.js",
               "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
               "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
@@ -502,7 +503,7 @@
               "loc": "13:20-36"
             },
             {
-              "moduleId": 7,
+              "moduleId": 8,
               "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js 5ebfafe8205c123e904f93053402f376",
               "module": "./src/index.js + 2 modules",
               "moduleName": "./src/index.js + 2 modules",
@@ -511,16 +512,16 @@
               "loc": "1:0-26"
             },
             {
-              "moduleId": 7,
+              "moduleId": 8,
               "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js 5ebfafe8205c123e904f93053402f376",
               "module": "./src/index.js + 2 modules",
               "moduleName": "./src/index.js + 2 modules",
               "type": "harmony side effect evaluation",
               "userRequest": "react",
-              "loc": "1:0-26"
+              "loc": "3:0-26"
             },
             {
-              "moduleId": 7,
+              "moduleId": 8,
               "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js 5ebfafe8205c123e904f93053402f376",
               "module": "./src/index.js + 2 modules",
               "moduleName": "./src/index.js + 2 modules",
@@ -529,16 +530,7 @@
               "loc": "5:7-12"
             },
             {
-              "moduleId": 7,
-              "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js 5ebfafe8205c123e904f93053402f376",
-              "module": "./src/index.js + 2 modules",
-              "moduleName": "./src/index.js + 2 modules",
-              "type": "harmony import specifier",
-              "userRequest": "react",
-              "loc": "12:11-16"
-            },
-            {
-              "moduleId": 7,
+              "moduleId": 8,
               "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js 5ebfafe8205c123e904f93053402f376",
               "module": "./src/index.js + 2 modules",
               "moduleName": "./src/index.js + 2 modules",
@@ -547,16 +539,25 @@
               "loc": "19:0-41"
             },
             {
-              "moduleId": 7,
+              "moduleId": 8,
               "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js 5ebfafe8205c123e904f93053402f376",
               "module": "./src/index.js + 2 modules",
               "moduleName": "./src/index.js + 2 modules",
               "type": "harmony import specifier",
               "userRequest": "react",
-              "loc": "19:11-16"
+              "loc": "26:11-16"
             },
             {
-              "moduleId": 7,
+              "moduleId": 8,
+              "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js 5ebfafe8205c123e904f93053402f376",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "react",
+              "loc": "34:11-16"
+            },
+            {
+              "moduleId": 8,
               "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js 5ebfafe8205c123e904f93053402f376",
               "module": "./src/index.js + 2 modules",
               "moduleName": "./src/index.js + 2 modules",
@@ -565,7 +566,7 @@
               "loc": "36:13-18"
             },
             {
-              "moduleId": 7,
+              "moduleId": 8,
               "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js 5ebfafe8205c123e904f93053402f376",
               "module": "./src/index.js + 2 modules",
               "moduleName": "./src/index.js + 2 modules",
@@ -574,7 +575,7 @@
               "loc": "36:33-38"
             },
             {
-              "moduleId": 7,
+              "moduleId": 8,
               "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js 5ebfafe8205c123e904f93053402f376",
               "module": "./src/index.js + 2 modules",
               "moduleName": "./src/index.js + 2 modules",
@@ -583,7 +584,7 @@
               "loc": "36:55-60"
             },
             {
-              "moduleId": 7,
+              "moduleId": 8,
               "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js 5ebfafe8205c123e904f93053402f376",
               "module": "./src/index.js + 2 modules",
               "moduleName": "./src/index.js + 2 modules",
@@ -614,7 +615,7 @@
             2
           ],
           "issuer": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/react/cjs/react.production.min.js",
-          "issuerId": 3,
+          "issuerId": 4,
           "issuerName": "./node_modules/react/cjs/react.production.min.js",
           "issuerPath": [
             {
@@ -628,7 +629,7 @@
               "name": "./node_modules/react/index.js"
             },
             {
-              "id": 3,
+              "id": 4,
               "identifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/react/cjs/react.production.min.js",
               "name": "./node_modules/react/cjs/react.production.min.js"
             }
@@ -640,7 +641,7 @@
           ],
           "reasons": [
             {
-              "moduleId": 3,
+              "moduleId": 4,
               "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/react/cjs/react.production.min.js",
               "module": "./node_modules/react/cjs/react.production.min.js",
               "moduleName": "./node_modules/react/cjs/react.production.min.js",
@@ -649,7 +650,7 @@
               "loc": "10:19-43"
             },
             {
-              "moduleId": 4,
+              "moduleId": 5,
               "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/react-dom/cjs/react-dom.production.min.js",
               "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
               "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
@@ -696,7 +697,7 @@
           ],
           "reasons": [
             {
-              "moduleId": 7,
+              "moduleId": 8,
               "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js 5ebfafe8205c123e904f93053402f376",
               "module": "./src/index.js + 2 modules",
               "moduleName": "./src/index.js + 2 modules",
@@ -705,7 +706,7 @@
               "loc": "2:0-35"
             },
             {
-              "moduleId": 7,
+              "moduleId": 8,
               "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js 5ebfafe8205c123e904f93053402f376",
               "module": "./src/index.js + 2 modules",
               "moduleName": "./src/index.js + 2 modules",
@@ -725,6 +726,74 @@
         },
         {
           "id": 3,
+          "identifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/classnames/index.js",
+          "name": "./node_modules/classnames/index.js",
+          "index": 10,
+          "index2": 7,
+          "size": 1198,
+          "cacheable": true,
+          "built": true,
+          "optional": false,
+          "prefetched": false,
+          "chunks": [
+            2
+          ],
+          "issuer": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/components/Button.js",
+          "issuerId": null,
+          "issuerName": "./src/components/Button.js",
+          "issuerPath": [
+            {
+              "id": null,
+              "identifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js",
+              "name": "./src/index.js"
+            },
+            {
+              "id": null,
+              "identifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/App.js",
+              "name": "./src/App.js"
+            },
+            {
+              "id": null,
+              "identifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/components/Button.js",
+              "name": "./src/components/Button.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "assets": [
+          ],
+          "reasons": [
+            {
+              "moduleId": 8,
+              "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js 5ebfafe8205c123e904f93053402f376",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony side effect evaluation",
+              "userRequest": "classnames",
+              "loc": "4:0-36"
+            },
+            {
+              "moduleId": 8,
+              "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js 5ebfafe8205c123e904f93053402f376",
+              "module": "./src/index.js + 2 modules",
+              "moduleName": "./src/index.js + 2 modules",
+              "type": "harmony import specifier",
+              "userRequest": "classnames",
+              "loc": "18:20-30"
+            }
+          ],
+          "usedExports": [
+            "default"
+          ],
+          "providedExports": null,
+          "optimizationBailout": [
+            "ModuleConcatenation bailout: Module is not an ECMAScript module"
+          ],
+          "depth": 3
+        },
+        {
+          "id": 4,
           "identifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/react/cjs/react.production.min.js",
           "name": "./node_modules/react/cjs/react.production.min.js",
           "index": 2,
@@ -776,7 +845,7 @@
           "depth": 2
         },
         {
-          "id": 4,
+          "id": 5,
           "identifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/react-dom/cjs/react-dom.production.min.js",
           "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
           "index": 5,
@@ -828,7 +897,7 @@
           "depth": 2
         },
         {
-          "id": 5,
+          "id": 6,
           "identifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/scheduler/index.js",
           "name": "./node_modules/scheduler/index.js",
           "index": 6,
@@ -842,7 +911,7 @@
             2
           ],
           "issuer": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/react-dom/cjs/react-dom.production.min.js",
-          "issuerId": 4,
+          "issuerId": 5,
           "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
           "issuerPath": [
             {
@@ -856,7 +925,7 @@
               "name": "./node_modules/react-dom/index.js"
             },
             {
-              "id": 4,
+              "id": 5,
               "identifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/react-dom/cjs/react-dom.production.min.js",
               "name": "./node_modules/react-dom/cjs/react-dom.production.min.js"
             }
@@ -868,7 +937,7 @@
           ],
           "reasons": [
             {
-              "moduleId": 4,
+              "moduleId": 5,
               "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/react-dom/cjs/react-dom.production.min.js",
               "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
               "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
@@ -885,7 +954,7 @@
           "depth": 3
         },
         {
-          "id": 6,
+          "id": 7,
           "identifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/scheduler/cjs/scheduler.production.min.js",
           "name": "./node_modules/scheduler/cjs/scheduler.production.min.js",
           "index": 7,
@@ -899,7 +968,7 @@
             2
           ],
           "issuer": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/scheduler/index.js",
-          "issuerId": 5,
+          "issuerId": 6,
           "issuerName": "./node_modules/scheduler/index.js",
           "issuerPath": [
             {
@@ -913,12 +982,12 @@
               "name": "./node_modules/react-dom/index.js"
             },
             {
-              "id": 4,
+              "id": 5,
               "identifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/react-dom/cjs/react-dom.production.min.js",
               "name": "./node_modules/react-dom/cjs/react-dom.production.min.js"
             },
             {
-              "id": 5,
+              "id": 6,
               "identifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/scheduler/index.js",
               "name": "./node_modules/scheduler/index.js"
             }
@@ -930,7 +999,7 @@
           ],
           "reasons": [
             {
-              "moduleId": 5,
+              "moduleId": 6,
               "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/scheduler/index.js",
               "module": "./node_modules/scheduler/index.js",
               "moduleName": "./node_modules/scheduler/index.js",
@@ -993,7 +1062,7 @@
       ],
       "reasons": [
         {
-          "moduleId": 4,
+          "moduleId": 5,
           "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/react-dom/cjs/react-dom.production.min.js",
           "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
           "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
@@ -1002,7 +1071,7 @@
           "loc": "13:20-36"
         },
         {
-          "moduleId": 7,
+          "moduleId": 8,
           "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js 5ebfafe8205c123e904f93053402f376",
           "module": "./src/index.js + 2 modules",
           "moduleName": "./src/index.js + 2 modules",
@@ -1011,16 +1080,16 @@
           "loc": "1:0-26"
         },
         {
-          "moduleId": 7,
+          "moduleId": 8,
           "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js 5ebfafe8205c123e904f93053402f376",
           "module": "./src/index.js + 2 modules",
           "moduleName": "./src/index.js + 2 modules",
           "type": "harmony side effect evaluation",
           "userRequest": "react",
-          "loc": "1:0-26"
+          "loc": "3:0-26"
         },
         {
-          "moduleId": 7,
+          "moduleId": 8,
           "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js 5ebfafe8205c123e904f93053402f376",
           "module": "./src/index.js + 2 modules",
           "moduleName": "./src/index.js + 2 modules",
@@ -1029,16 +1098,7 @@
           "loc": "5:7-12"
         },
         {
-          "moduleId": 7,
-          "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js 5ebfafe8205c123e904f93053402f376",
-          "module": "./src/index.js + 2 modules",
-          "moduleName": "./src/index.js + 2 modules",
-          "type": "harmony import specifier",
-          "userRequest": "react",
-          "loc": "12:11-16"
-        },
-        {
-          "moduleId": 7,
+          "moduleId": 8,
           "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js 5ebfafe8205c123e904f93053402f376",
           "module": "./src/index.js + 2 modules",
           "moduleName": "./src/index.js + 2 modules",
@@ -1047,16 +1107,25 @@
           "loc": "19:0-41"
         },
         {
-          "moduleId": 7,
+          "moduleId": 8,
           "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js 5ebfafe8205c123e904f93053402f376",
           "module": "./src/index.js + 2 modules",
           "moduleName": "./src/index.js + 2 modules",
           "type": "harmony import specifier",
           "userRequest": "react",
-          "loc": "19:11-16"
+          "loc": "26:11-16"
         },
         {
-          "moduleId": 7,
+          "moduleId": 8,
+          "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js 5ebfafe8205c123e904f93053402f376",
+          "module": "./src/index.js + 2 modules",
+          "moduleName": "./src/index.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "react",
+          "loc": "34:11-16"
+        },
+        {
+          "moduleId": 8,
           "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js 5ebfafe8205c123e904f93053402f376",
           "module": "./src/index.js + 2 modules",
           "moduleName": "./src/index.js + 2 modules",
@@ -1065,7 +1134,7 @@
           "loc": "36:13-18"
         },
         {
-          "moduleId": 7,
+          "moduleId": 8,
           "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js 5ebfafe8205c123e904f93053402f376",
           "module": "./src/index.js + 2 modules",
           "moduleName": "./src/index.js + 2 modules",
@@ -1074,7 +1143,7 @@
           "loc": "36:33-38"
         },
         {
-          "moduleId": 7,
+          "moduleId": 8,
           "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js 5ebfafe8205c123e904f93053402f376",
           "module": "./src/index.js + 2 modules",
           "moduleName": "./src/index.js + 2 modules",
@@ -1083,7 +1152,7 @@
           "loc": "36:55-60"
         },
         {
-          "moduleId": 7,
+          "moduleId": 8,
           "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js 5ebfafe8205c123e904f93053402f376",
           "module": "./src/index.js + 2 modules",
           "moduleName": "./src/index.js + 2 modules",
@@ -1114,7 +1183,7 @@
         2
       ],
       "issuer": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/react/cjs/react.production.min.js",
-      "issuerId": 3,
+      "issuerId": 4,
       "issuerName": "./node_modules/react/cjs/react.production.min.js",
       "issuerPath": [
         {
@@ -1128,7 +1197,7 @@
           "name": "./node_modules/react/index.js"
         },
         {
-          "id": 3,
+          "id": 4,
           "identifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/react/cjs/react.production.min.js",
           "name": "./node_modules/react/cjs/react.production.min.js"
         }
@@ -1140,7 +1209,7 @@
       ],
       "reasons": [
         {
-          "moduleId": 3,
+          "moduleId": 4,
           "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/react/cjs/react.production.min.js",
           "module": "./node_modules/react/cjs/react.production.min.js",
           "moduleName": "./node_modules/react/cjs/react.production.min.js",
@@ -1149,7 +1218,7 @@
           "loc": "10:19-43"
         },
         {
-          "moduleId": 4,
+          "moduleId": 5,
           "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/react-dom/cjs/react-dom.production.min.js",
           "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
           "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
@@ -1196,7 +1265,7 @@
       ],
       "reasons": [
         {
-          "moduleId": 7,
+          "moduleId": 8,
           "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js 5ebfafe8205c123e904f93053402f376",
           "module": "./src/index.js + 2 modules",
           "moduleName": "./src/index.js + 2 modules",
@@ -1205,7 +1274,7 @@
           "loc": "2:0-35"
         },
         {
-          "moduleId": 7,
+          "moduleId": 8,
           "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js 5ebfafe8205c123e904f93053402f376",
           "module": "./src/index.js + 2 modules",
           "moduleName": "./src/index.js + 2 modules",
@@ -1225,6 +1294,74 @@
     },
     {
       "id": 3,
+      "identifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/classnames/index.js",
+      "name": "./node_modules/classnames/index.js",
+      "index": 10,
+      "index2": 7,
+      "size": 1198,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        2
+      ],
+      "issuer": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/components/Button.js",
+      "issuerId": null,
+      "issuerName": "./src/components/Button.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js",
+          "name": "./src/index.js"
+        },
+        {
+          "id": null,
+          "identifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/App.js",
+          "name": "./src/App.js"
+        },
+        {
+          "id": null,
+          "identifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/components/Button.js",
+          "name": "./src/components/Button.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "assets": [
+      ],
+      "reasons": [
+        {
+          "moduleId": 8,
+          "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js 5ebfafe8205c123e904f93053402f376",
+          "module": "./src/index.js + 2 modules",
+          "moduleName": "./src/index.js + 2 modules",
+          "type": "harmony side effect evaluation",
+          "userRequest": "classnames",
+          "loc": "4:0-36"
+        },
+        {
+          "moduleId": 8,
+          "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js 5ebfafe8205c123e904f93053402f376",
+          "module": "./src/index.js + 2 modules",
+          "moduleName": "./src/index.js + 2 modules",
+          "type": "harmony import specifier",
+          "userRequest": "classnames",
+          "loc": "18:20-30"
+        }
+      ],
+      "usedExports": [
+        "default"
+      ],
+      "providedExports": null,
+      "optimizationBailout": [
+        "ModuleConcatenation bailout: Module is not an ECMAScript module"
+      ],
+      "depth": 3
+    },
+    {
+      "id": 4,
       "identifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/react/cjs/react.production.min.js",
       "name": "./node_modules/react/cjs/react.production.min.js",
       "index": 2,
@@ -1276,7 +1413,7 @@
       "depth": 2
     },
     {
-      "id": 4,
+      "id": 5,
       "identifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/react-dom/cjs/react-dom.production.min.js",
       "name": "./node_modules/react-dom/cjs/react-dom.production.min.js",
       "index": 5,
@@ -1328,7 +1465,7 @@
       "depth": 2
     },
     {
-      "id": 5,
+      "id": 6,
       "identifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/scheduler/index.js",
       "name": "./node_modules/scheduler/index.js",
       "index": 6,
@@ -1342,7 +1479,7 @@
         2
       ],
       "issuer": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/react-dom/cjs/react-dom.production.min.js",
-      "issuerId": 4,
+      "issuerId": 5,
       "issuerName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
       "issuerPath": [
         {
@@ -1356,7 +1493,7 @@
           "name": "./node_modules/react-dom/index.js"
         },
         {
-          "id": 4,
+          "id": 5,
           "identifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/react-dom/cjs/react-dom.production.min.js",
           "name": "./node_modules/react-dom/cjs/react-dom.production.min.js"
         }
@@ -1368,7 +1505,7 @@
       ],
       "reasons": [
         {
-          "moduleId": 4,
+          "moduleId": 5,
           "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/react-dom/cjs/react-dom.production.min.js",
           "module": "./node_modules/react-dom/cjs/react-dom.production.min.js",
           "moduleName": "./node_modules/react-dom/cjs/react-dom.production.min.js",
@@ -1385,7 +1522,7 @@
       "depth": 3
     },
     {
-      "id": 6,
+      "id": 7,
       "identifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/scheduler/cjs/scheduler.production.min.js",
       "name": "./node_modules/scheduler/cjs/scheduler.production.min.js",
       "index": 7,
@@ -1399,7 +1536,7 @@
         2
       ],
       "issuer": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/scheduler/index.js",
-      "issuerId": 5,
+      "issuerId": 6,
       "issuerName": "./node_modules/scheduler/index.js",
       "issuerPath": [
         {
@@ -1413,12 +1550,12 @@
           "name": "./node_modules/react-dom/index.js"
         },
         {
-          "id": 4,
+          "id": 5,
           "identifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/react-dom/cjs/react-dom.production.min.js",
           "name": "./node_modules/react-dom/cjs/react-dom.production.min.js"
         },
         {
-          "id": 5,
+          "id": 6,
           "identifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/scheduler/index.js",
           "name": "./node_modules/scheduler/index.js"
         }
@@ -1430,7 +1567,7 @@
       ],
       "reasons": [
         {
-          "moduleId": 5,
+          "moduleId": 6,
           "moduleIdentifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/scheduler/index.js",
           "module": "./node_modules/scheduler/index.js",
           "moduleName": "./node_modules/scheduler/index.js",
@@ -1447,12 +1584,12 @@
       "depth": 4
     },
     {
-      "id": 7,
+      "id": 8,
       "identifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js 5ebfafe8205c123e904f93053402f376",
       "name": "./src/index.js + 2 modules",
       "index": 0,
-      "index2": 9,
-      "size": 3687,
+      "index2": 10,
+      "size": 4636,
       "cacheable": true,
       "built": true,
       "optional": false,
@@ -1484,6 +1621,7 @@
       "providedExports": [
       ],
       "optimizationBailout": [
+        "ModuleConcatenation bailout: Cannot concat with ./node_modules/classnames/index.js (<- Module is not an ECMAScript module)",
         "ModuleConcatenation bailout: Cannot concat with ./node_modules/react-dom/index.js (<- Module is not an ECMAScript module)",
         "ModuleConcatenation bailout: Cannot concat with ./node_modules/react/index.js (<- Module is not an ECMAScript module)"
       ],
@@ -1494,7 +1632,7 @@
           "identifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/index.js",
           "name": "./src/index.js",
           "index": 0,
-          "index2": 9,
+          "index2": 10,
           "size": 190,
           "cacheable": true,
           "built": true,
@@ -1535,7 +1673,7 @@
           "identifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/App.js",
           "name": "./src/App.js",
           "index": 8,
-          "index2": 8,
+          "index2": 9,
           "size": 2731,
           "cacheable": true,
           "built": true,
@@ -1593,8 +1731,8 @@
           "identifier": "/Users/danjackson/Documents/www/react-bootstrap/node_modules/babel-loader/lib/index.js!/Users/danjackson/Documents/www/react-bootstrap/src/components/Button.js",
           "name": "./src/components/Button.js",
           "index": 9,
-          "index2": 7,
-          "size": 756,
+          "index2": 8,
+          "size": 1700,
           "cacheable": true,
           "built": true,
           "optional": false,

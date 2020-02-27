@@ -69,6 +69,11 @@ function (_Component) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
+/* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_1__);
+function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+
+
 
 
 var Button = function Button(props) {
@@ -76,20 +81,34 @@ var Button = function Button(props) {
       type = _props$type === void 0 ? 'button' : _props$type,
       _props$url = props.url,
       url = _props$url === void 0 ? '' : _props$url,
+      _props$className = props.className,
+      className = _props$className === void 0 ? '' : _props$className,
+      _props$theme = props.theme,
+      theme = _props$theme === void 0 ? '' : _props$theme,
+      _props$isFullWidth = props.isFullWidth,
+      isFullWidth = _props$isFullWidth === void 0 ? false : _props$isFullWidth,
       children = props.children;
+  var buttonClass = classnames__WEBPACK_IMPORTED_MODULE_1___default()('btn', className, {
+    'btn--primary': theme === 'primary',
+    'btn--secondary': theme === 'secondary',
+    'btn--full-width': isFullWidth
+  });
   var isAnchor = url && (url.includes('http') || url.startsWith('#') || url.startsWith('mailto') || url.startsWith('/'));
 
   var renderAnchor = function renderAnchor() {
     return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
       href: url,
+      className: buttonClass,
       role: "button"
     }, children);
   };
 
   var renderButton = function renderButton() {
-    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
+    return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", _extends({
       type: type
-    }, children);
+    }, {
+      className: buttonClass
+    }), children);
   };
 
   return isAnchor ? renderAnchor() : renderButton();

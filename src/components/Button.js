@@ -1,19 +1,29 @@
 import React from 'react';
+import classNames from 'classnames';
 
 const Button = (props) => {
 
 	const { type = 'button',
 			url = '',
+			className = '',
+			theme = '',
+			isFullWidth = false,
 			children
 	} = props;
+
+	const buttonClass = classNames('btn', className, {
+		'btn--primary' : theme === 'primary',
+		'btn--secondary' : theme === 'secondary',
+		'btn--full-width' : isFullWidth
+	});
 
 	const isAnchor = url && (url.includes('http') || url.startsWith('#') || url.startsWith('mailto') || url.startsWith('/'));
 
 	const renderAnchor = () =>
-		<a href={url} role="button">{children}</a>
+		<a href={url} className={buttonClass} role="button">{children}</a>
 
 	const renderButton = () =>
-		<button {...{type}}>{children}</button>
+		<button {...{type}} className={buttonClass}>{children}</button>
 
 	return (
 		isAnchor ? renderAnchor() : renderButton()
