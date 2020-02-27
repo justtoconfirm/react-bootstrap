@@ -39,3 +39,9 @@ $ npm run lint
 # Fix issues
 $ npm run lint:fix
 ```
+
+## Test
+
+```
+$ npm run test
+```
