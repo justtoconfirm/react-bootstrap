@@ -5,8 +5,8 @@
   ],
   "version": "4.41.6",
   "hash": "cf93406f7b7a8797bfcf",
-  "time": 850,
-  "builtAt": 1582808408900,
+  "time": 854,
+  "builtAt": 1582808616025,
   "publicPath": "/",
   "outputPath": "/Users/danjackson/Documents/www/react-bootstrap/dist",
   "assetsByChunkName": {

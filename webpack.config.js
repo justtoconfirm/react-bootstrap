@@ -54,6 +54,8 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, './dist'),
         publicPath: '/',
+        // Remove the generated path info in the output bundle to reduce pressure on garbage collection
+        pathinfo: false,
         // Set filename of bundle if production or development mode is used
         filename: env === 'production' ? 'js/min/[name].bundle.min.js' : 'js/[name].bundle.js'
     }
