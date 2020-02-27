@@ -12,7 +12,7 @@
     "test": "jest"
   },
   "jest": {
-    "setupTestFrameworkScriptFile": "<rootDir>/src/setupTests.js"
+    "setupFilesAfterEnv": ["<rootDir>/src/setupTests.js"]
   },
   "repository": {
     "type": "git",
