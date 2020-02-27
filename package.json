@@ -1,7 +1,7 @@
 {
   "name": "react-bootstrap",
   "version": "1.0.0",
-  "description": "React Boilerplate",
+  "description": "React Bootstrap",
   "main": "index.js",
   "scripts": {
     "lint": "standard",
