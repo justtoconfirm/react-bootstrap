@@ -5,6 +5,7 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPl
 module.exports = {
     devtool: 'source-map',
     performance: {
+        // Display performance warning during development mode
         hints: 'warning'
     },
     watch: true,
@@ -15,6 +16,8 @@ module.exports = {
         rules: [
             {
                 test: /\.js$/,
+                // Only apply the loader modules actually needed to improve build performance
+                include: path.resolve(__dirname, 'src'),
                 exclude: /node_modules/,
                 use: {
                     loader: 'babel-loader'
