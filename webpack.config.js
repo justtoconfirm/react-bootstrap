@@ -1,5 +1,6 @@
 const path = require('path');
 const env = process.env.NODE_ENV;
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 module.exports = {
     devtool: 'source-map',
@@ -34,6 +35,15 @@ module.exports = {
             }
         }
     },
+    plugins: [
+        new BundleAnalyzerPlugin({
+            analyzerMode: 'disabled',
+            generateStatsFile: true,
+            statsOptions: {
+                source: false
+            }
+        })
+    ],
     output: {
         path: path.resolve(__dirname, './dist'),
         publicPath: '/',
