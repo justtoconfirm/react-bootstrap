@@ -1,16 +1,16 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
-import Button from './components/Button/Button';
+import Button from './components/Button/Button'
 
 class App extends Component {
-	render() {
-		return (
-			<>
-				<Button>Button</Button>
-				<Button isFullWidth>Button</Button>
-			</>
-		)
-	}
+  render () {
+    return (
+      <>
+        <Button>Button</Button>
+        <Button isFullWidth>Button</Button>
+      </>
+    )
+  }
 }
 
-export default App;
+export default App

@@ -5,8 +5,8 @@
   ],
   "version": "4.41.6",
   "hash": "cf93406f7b7a8797bfcf",
-  "time": 854,
-  "builtAt": 1582808616025,
+  "time": 968,
+  "builtAt": 1582894983638,
   "publicPath": "/",
   "outputPath": "/Users/danjackson/Documents/www/react-bootstrap/dist",
   "assetsByChunkName": {
@@ -39,7 +39,7 @@
     },
     {
       "name": "js/min/main.bundle.min.js.map",
-      "size": 2418,
+      "size": 2399,
       "chunks": [
         0
       ],
