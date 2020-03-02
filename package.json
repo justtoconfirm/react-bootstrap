@@ -8,14 +8,19 @@
     "lint:fix": "standard --fix",
     "build": "NODE_ENV=production webpack --mode=production --progress",
     "build:dev": "NODE_ENV=development webpack --mode=development --progress",
+    "storybook": "start-storybook -p 9001 -c .storybook",
     "analyzer": "webpack-bundle-analyzer --port 4200 dist/stats.json",
     "test": "jest"
   },
   "jest": {
-    "setupFilesAfterEnv": ["<rootDir>/src/setupTests.js"]
+    "setupFilesAfterEnv": [
+      "<rootDir>/src/setupTests.js"
+    ]
   },
   "standard": {
-    "env": [ "jest" ],
+    "env": [
+      "jest"
+    ],
     "ignore": "**/dist/"
   },
   "repository": {
@@ -38,6 +43,7 @@
     "@babel/core": "^7.8.4",
     "@babel/preset-env": "^7.8.4",
     "@babel/preset-react": "^7.8.3",
+    "@storybook/react": "^5.3.14",
     "babel-loader": "^8.0.6",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
