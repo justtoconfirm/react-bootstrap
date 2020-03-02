@@ -26,6 +26,12 @@ $ npm run build
 $ npm run build:dev
 ```
 
+## Storybook
+
+```
+$ npm run storybook
+```
+
 ## Webpack Bundle Analyzer
 
 ```
